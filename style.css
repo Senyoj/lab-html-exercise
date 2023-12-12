@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+	font-family: "Poppins";
+}
+
+header > .top_header {
+	padding: 0 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+}
+
+nav {
+	width: 600px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.blackHeart {
+	width: 20px;
+	margin-right: 1rem;
+}
+
+.title_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title_icon img {
+	width: 30px;
+}
+
+
+
+
+
+.bottom_header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 25px;
+}
+
+
+.bottom_header > div
+{
+	display: flex;
+	justify-content: center ;
+	align-items: center;
+}
+.npm_icon img
+{
+	width:100px;
+}
+
+
+
+.search_icon img
+{
+	width: 40px;
+}
+
+
+.search_container{
+	background-color: red;
+	position: relative;
+}
+.search_input > input
+{
+	height: 50px;
+	width: 65rem;
+	padding: 0px 0  0 50px;
+}
+
+.search_icon img
+{
+	position: absolute;
+	top: 10%;
+	left: 1%;
+}
+.seach_btn button
+{
+	height: 50px;
+	width: 100px;
+}

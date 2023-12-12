@@ -10,6 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -37,26 +38,27 @@
         </div>
       </div>
       <div class="bottom_header">
-        <div class="npm_icon">
-          <img src="/images/npm-logo.png" alt="Npm Logo" />
-        </div>
-        <div class="search_container">
-          <div class="search_input">
-            <div class="search_icon">
-              <img src="/images/magnifying-glass.png" alt="" />
+          <div class="npm_icon">
+            <img src="/images/npm-logo.png" alt="Npm Logo" />
+          </div>
+          <div class="search_container">
+            <div class="search_input">
+              <div class="search_icon">
+                <img src="/images/magnifying-glass.png" alt="" />
+              </div>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="search packages"
+                class="search_input"
+              />
             </div>
-            <input
-              type="search"
-              name="search"
-              id="search"
-              placeholder="search packages"
-              class="search_input"
-            />
+            <div class="seach_btn">
+              <button type="submit">Search</button>
+            </div>
           </div>
-          <div class="seach_btn">
-            <button type="submit">Search</button>
-          </div>
-        </div>
+
         <div class="auth_container">
           <button>Join</button>
           <button>Login</button>
@@ -157,7 +159,7 @@
           </div>
         </div>
         <div class="button_container">
-            <button>Create an Org</button>
+          <button>Create an Org</button>
         </div>
       </div>
       <!-- section three -->
